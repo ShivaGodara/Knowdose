@@ -165,7 +165,7 @@ export default function App() {
     setLoading(true);
     
     try {
-      const API_KEY = 'AIzaSyBPaAAuBSzwj1-VuFa00ZH8mgIswKffCdg';
+      const API_KEY = 'YOUR_GEMINI_API_KEY_HERE'; // Replace with your actual API key
       
       const getLanguagePrompt = (language) => {
         const prompts = {

@@ -19,8 +19,9 @@ Complete medicine scanning app with OCR, AI information, and text-to-speech.
 
 2. **Add Gemini API Key:**
    - Get your free API key: https://makersuite.google.com/app/apikey
-   - Open `App.js` and replace `YOUR_API_KEY` on line 54 with your actual key
+   - Open `App.js` and replace `YOUR_GEMINI_API_KEY_HERE` on line 154 with your actual key
    - Example: `const API_KEY = 'AIzaSyBxxxxxxxxxxxxxxxxxxxxx';`
+   - **Important:** Never commit your actual API key to version control
 
 3. **Run the app:**
    ```bash
