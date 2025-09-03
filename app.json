@@ -20,8 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "permissions": ["CAMERA"],
       "edgeToEdgeEnabled": true
     },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow KnowDose to access camera for scanning medicines"
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
