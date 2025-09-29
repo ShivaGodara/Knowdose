@@ -13,11 +13,14 @@ web-build/
 # macOS
 .DS_Store
 
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
 # Environment variables
 .env
 .env.local
 .env.production
 
-# API Keys (security)
-**/config/keys.js
-**/config/secrets.js
+# API Keys (if you create a separate config file)
+config.js
+apiKeys.js

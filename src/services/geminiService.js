@@ -1,5 +1,5 @@
 export const analyzeImageWithGemini = async (base64Image, language = 'en-US') => {
-  const API_KEY = 'AIzaSyBPaAAuBSzwj1-VuFa00ZH8mgIswKffCdg';
+  const API_KEY = 'YOUR_GEMINI_API_KEY_HERE'; // Replace with your actual Gemini API key
   
   const getLanguagePrompt = (language) => {
     const prompts = {
